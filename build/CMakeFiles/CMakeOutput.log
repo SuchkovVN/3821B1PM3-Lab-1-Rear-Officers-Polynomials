@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-Сборка начата 17.02.2023 13:23:27.
+Сборка начата 17.02.2023 13:48:36.
 Проект "C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
 PrepareForBuild:
   Создание каталога "Debug\".
@@ -35,7 +35,7 @@ FinalizeBuildStatus:
     Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:01.77
+Прошло времени 00:00:00.63
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
-Сборка начата 17.02.2023 13:23:29.
+Сборка начата 17.02.2023 13:48:37.
 Проект "C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
 PrepareForBuild:
   Создание каталога "Debug\".
@@ -80,7 +80,7 @@ FinalizeBuildStatus:
     Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:00.66
+Прошло времени 00:00:00.53
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,28 +92,28 @@ The CXX compiler identification is MSVC, found in "C:/Users/Professional/Desktop
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Professional/Desktop/lab 4_1/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/VS/MSBuild/Current/Bin/MSBuild.exe cmTC_0634e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
+Run Build Command(s):E:/VS/MSBuild/Current/Bin/MSBuild.exe cmTC_4c08e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
   Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30133 для x64
   (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0634e.dir\Debug\\" /Fd"cmTC_0634e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
-  cmTC_0634e.vcxproj -> C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\CMakeTmp\Debug\cmTC_0634e.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c08e.dir\Debug\\" /Fd"cmTC_4c08e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  cmTC_4c08e.vcxproj -> C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\CMakeTmp\Debug\cmTC_4c08e.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Professional/Desktop/lab 4_1/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/VS/MSBuild/Current/Bin/MSBuild.exe cmTC_37c2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
+Run Build Command(s):E:/VS/MSBuild/Current/Bin/MSBuild.exe cmTC_5b7fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
 (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
   Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30133 для x64
   (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_37c2e.dir\Debug\\" /Fd"cmTC_37c2e.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_37c2e.vcxproj -> C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\CMakeTmp\Debug\cmTC_37c2e.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5b7fe.dir\Debug\\" /Fd"cmTC_5b7fe.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_5b7fe.vcxproj -> C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\CMakeTmp\Debug\cmTC_5b7fe.exe
 
 
 
