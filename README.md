@@ -9,7 +9,20 @@
 + Демидов Егор
 
 ## Структура проекта 
-Здесь будет описана структура проекта, если будет, конечно
+Здесь будет описана структура проекта, если будет, конечно (снизу заглушка)
+```mermaid
+flowchart TB  
+  Pol["Polynomials(main)"]
+  Lib[(lib)]
+  Pol--->Libraries
+  
+  subgraph Libraries
+  Lib--->Mml["MML(Map Library)"]
+  Lib--->Ll[ListLib]
+  end
+    
+  
+```
 
 ## Задачи 
 - [X] Создать репозиторий  
