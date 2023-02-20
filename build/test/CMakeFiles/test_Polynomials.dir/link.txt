@@ -1,0 +1,1 @@
+/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/g++ -O3 -DNDEBUG -rdynamic CMakeFiles/test_Polynomials.dir/test_main.cpp.o CMakeFiles/test_Polynomials.dir/test_rofl.cpp.o -o test_Polynomials  ../gtest/libgtest.a -pthread 

@@ -1,119 +1,491 @@
-The system is: Windows - 10.0.17763 - AMD64
+The system is: Linux - 5.15.0-1029-gcp - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler:  
+Compiler: /nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/gcc 
 Build flags: 
 Id flags:  
 
 The output was:
 0
-Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
-(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
-
-Сборка начата 17.02.2023 13:48:36.
-Проект "C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
-PrepareForBuild:
-  Создание каталога "Debug\".
-  Создание каталога "Debug\CompilerIdC.tlog\".
-InitializeBuildStatus:
-  Создание "Debug\CompilerIdC.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
-ClCompile:
-  E:\VS\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-  CMakeCCompilerId.c
-Link:
-  E:\VS\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.exe
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_C_COMPILER=E:\VS\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
-FinalizeBuildStatus:
-  Файл "Debug\CompilerIdC.tlog\unsuccessfulbuild" удаляется.
-  Обращение к "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Сборка проекта "C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\3.23.0-rc1\CompilerIdC\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
-
-Сборка успешно завершена.
-    Предупреждений: 0
-    Ошибок: 0
-
-Прошло времени 00:00:00.63
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-
-The C compiler identification is MSVC, found in "C:/Users/Professional/Desktop/lab 4_1/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/3.23.0-rc1/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is GNU, found in "/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/3.19.7/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler:  
+Compiler: /nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/g++ 
 Build flags: 
 Id flags:  
 
 The output was:
 0
-Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
-(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
-
-Сборка начата 17.02.2023 13:48:37.
-Проект "C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
-PrepareForBuild:
-  Создание каталога "Debug\".
-  Создание каталога "Debug\CompilerIdCXX.tlog\".
-InitializeBuildStatus:
-  Создание "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
-ClCompile:
-  E:\VS\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-  CMakeCXXCompilerId.cpp
-Link:
-  E:\VS\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.exe
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_CXX_COMPILER=E:\VS\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
-FinalizeBuildStatus:
-  Файл "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" удаляется.
-  Обращение к "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Сборка проекта "C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\3.23.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
-
-Сборка успешно завершена.
-    Предупреждений: 0
-    Ошибок: 0
-
-Прошло времени 00:00:00.53
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-
-The CXX compiler identification is MSVC, found in "C:/Users/Professional/Desktop/lab 4_1/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/3.23.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is GNU, found in "/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/3.19.7/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Professional/Desktop/lab 4_1/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp
+Change Dir: /home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/VS/MSBuild/Current/Bin/MSBuild.exe cmTC_4c08e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
-(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
-
-  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30133 для x64
-  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-  CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c08e.dir\Debug\\" /Fd"cmTC_4c08e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
-  cmTC_4c08e.vcxproj -> C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\CMakeTmp\Debug\cmTC_4c08e.exe
+Run Build Command(s):/nix/store/pvkiiw0mp1yx0b21b7k105yywccychgh-gnumake-4.3/bin/make cmTC_0f1f3/fast && /nix/store/pvkiiw0mp1yx0b21b7k105yywccychgh-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_0f1f3.dir/build.make CMakeFiles/cmTC_0f1f3.dir/build
+make[1]: Entering directory '/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o
+/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/gcc   -v -o CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o -c /nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/bin/gcc
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-mtune=generic' '-march=x86-64' '-fcommon'
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/cc1 -quiet -v -D _FORTIFY_SOURCE=2 -idirafter /nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include -idirafter /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include /nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -fno-strict-overflow -fPIC -frandom-seed=fwc039i9p4 -frandom-seed=2rq308q9vl -fcommon --param=ssp-buffer-size=4 -o /tmp/cc0m8jPU.s
+GNU C17 (GCC) version 10.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
 
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include"
+ignoring duplicate directory "/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include"
+ignoring duplicate directory "/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include"
+ignoring duplicate directory "/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include"
+ignoring duplicate directory "/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include"
+ignoring nonexistent directory "/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../x86_64-unknown-linux-gnu/include"
+ignoring duplicate directory "/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include"
+ignoring duplicate directory "/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include
+ /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include
+ /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed
+ /nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include
+End of search list.
+GNU C17 (GCC) version 10.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7bd8026bd7509b97891d146f52df0f13
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-mtune=generic' '-march=x86-64' '-fcommon'
+ /nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/as -v --64 -o CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o /tmp/cc0m8jPU.s
+GNU assembler version 2.35.1 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.35.1
+COMPILER_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-mtune=generic' '-march=x86-64' '-fcommon'
+Linking C executable cmTC_0f1f3
+/nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f1f3.dir/link.txt --verbose=1
+/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/gcc  -v -rdynamic CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o -o cmTC_0f1f3 
+Using built-in specs.
+COLLECT_GCC=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/bin/gcc
+COLLECT_LTO_WRAPPER=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.0 (GCC) 
+COMPILER_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-rdynamic' '-o' 'cmTC_0f1f3' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib' '-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-mtune=generic' '-march=x86-64' '-fcommon'
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/collect2 -plugin /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2ZVU5D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib64/ld-linux-x86-64.so.2 -o cmTC_0f1f3 /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crt1.o /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crti.o /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib -L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib -L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib -L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib -L/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64 -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../.. -dynamic-linker=/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o -rpath /nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib64 -rpath /nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib -rpath /nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib64 -rpath /nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crtn.o
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-rdynamic' '-o' 'cmTC_0f1f3' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib' '-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-mtune=generic' '-march=x86-64' '-fcommon'
+make[1]: Leaving directory '/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include]
+    add: [/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include]
+    add: [/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include]
+    add: [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include]
+    add: [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include]
+    add: [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed]
+    add: [/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include]
+  end of search list found
+  collapse include dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include] ==> [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include]
+  collapse include dir [/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include] ==> [/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include]
+  collapse include dir [/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include] ==> [/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include]
+  collapse include dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include]
+  collapse include dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include]
+  collapse include dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed]
+  collapse include dir [/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include] ==> [/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include]
+  implicit include dirs: [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include;/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include;/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed;/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/pvkiiw0mp1yx0b21b7k105yywccychgh-gnumake-4.3/bin/make cmTC_0f1f3/fast && /nix/store/pvkiiw0mp1yx0b21b7k105yywccychgh-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_0f1f3.dir/build.make CMakeFiles/cmTC_0f1f3.dir/build]
+  ignore line: [make[1]: Entering directory '/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/gcc   -v -o CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o -c /nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/bin/gcc]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-mtune=generic' '-march=x86-64' '-fcommon']
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/cc1 -quiet -v -D _FORTIFY_SOURCE=2 -idirafter /nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include -idirafter /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include /nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -fno-strict-overflow -fPIC -frandom-seed=fwc039i9p4 -frandom-seed=2rq308q9vl -fcommon --param=ssp-buffer-size=4 -o /tmp/cc0m8jPU.s]
+  ignore line: [GNU C17 (GCC) version 10.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring nonexistent directory "/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include]
+  ignore line: [ /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include]
+  ignore line: [ /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include]
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include]
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include]
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed]
+  ignore line: [ /nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7bd8026bd7509b97891d146f52df0f13]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-mtune=generic' '-march=x86-64' '-fcommon']
+  ignore line: [ /nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/as -v --64 -o CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o /tmp/cc0m8jPU.s]
+  ignore line: [GNU assembler version 2.35.1 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.35.1]
+  ignore line: [COMPILER_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-mtune=generic' '-march=x86-64' '-fcommon']
+  ignore line: [Linking C executable cmTC_0f1f3]
+  ignore line: [/nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f1f3.dir/link.txt --verbose=1]
+  ignore line: [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/gcc  -v -rdynamic CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o -o cmTC_0f1f3 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-rdynamic' '-o' 'cmTC_0f1f3' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib' '-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-mtune=generic' '-march=x86-64' '-fcommon']
+  link line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/collect2 -plugin /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2ZVU5D.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib64/ld-linux-x86-64.so.2 -o cmTC_0f1f3 /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crt1.o /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crti.o /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib -L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib -L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib -L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib -L/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64 -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../.. -dynamic-linker=/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o -rpath /nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib64 -rpath /nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib -rpath /nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib64 -rpath /nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crtn.o]
+    arg [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2ZVU5D.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0f1f3] ==> ignore
+    arg [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crt1.o] ==> ignore
+    arg [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crti.o] ==> ignore
+    arg [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o] ==> ignore
+    arg [-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+    arg [-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+    arg [-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+    arg [-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib] ==> dir [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib]
+    arg [-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib] ==> dir [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib]
+    arg [-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib] ==> dir [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib]
+    arg [-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib] ==> dir [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib]
+    arg [-L/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin] ==> dir [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin]
+    arg [-L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+    arg [-L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64] ==> dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64]
+    arg [-L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..] ==> dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..]
+    arg [-dynamic-linker=/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_0f1f3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o] ==> ignore
+    arg [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crtn.o] ==> ignore
+  collapse library dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+  collapse library dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+  collapse library dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+  collapse library dir [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib] ==> [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib]
+  collapse library dir [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib] ==> [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib]
+  collapse library dir [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib] ==> [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib]
+  collapse library dir [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib] ==> [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib]
+  collapse library dir [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin] ==> [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin]
+  collapse library dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  collapse library dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib64]
+  collapse library dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib;/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib;/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib;/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib64;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib]
+  implicit fwks: []
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Professional/Desktop/lab 4_1/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp
+Change Dir: /home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):E:/VS/MSBuild/Current/Bin/MSBuild.exe cmTC_5b7fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine версии 16.11.0+0538acc04 для .NET Framework
-(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
-
-  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30133 для x64
-  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-  CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5b7fe.dir\Debug\\" /Fd"cmTC_5b7fe.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_5b7fe.vcxproj -> C:\Users\Professional\Desktop\lab 4_1\3821B1PM3-Lab-1-Rear-Officers-Polynomials\build\CMakeFiles\CMakeTmp\Debug\cmTC_5b7fe.exe
+Run Build Command(s):/nix/store/pvkiiw0mp1yx0b21b7k105yywccychgh-gnumake-4.3/bin/make cmTC_4bbd2/fast && /nix/store/pvkiiw0mp1yx0b21b7k105yywccychgh-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_4bbd2.dir/build.make CMakeFiles/cmTC_4bbd2.dir/build
+make[1]: Entering directory '/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o
+/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/g++   -v -o CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/bin/g++
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon'
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 -idirafter /nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include -idirafter /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include /nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -fno-strict-overflow -fPIC -frandom-seed=fwc039i9p4 -frandom-seed=2rq308q9vl -fcommon --param=ssp-buffer-size=4 -o /tmp/ccg2G5Wu.s
+GNU C++14 (GCC) version 10.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
 
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include"
+ignoring duplicate directory "/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include"
+ignoring duplicate directory "/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include"
+ignoring duplicate directory "/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include"
+ignoring duplicate directory "/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include"
+ignoring nonexistent directory "/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../x86_64-unknown-linux-gnu/include"
+ignoring duplicate directory "/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include"
+ignoring duplicate directory "/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include
+ /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include
+ /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed
+ /nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include
+End of search list.
+GNU C++14 (GCC) version 10.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18d7017847d8829a5e71125b12bb1fcc
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon'
+ /nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/as -v --64 -o CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccg2G5Wu.s
+GNU assembler version 2.35.1 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.35.1
+COMPILER_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon'
+Linking CXX executable cmTC_4bbd2
+/nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bbd2.dir/link.txt --verbose=1
+/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/g++  -v -rdynamic CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4bbd2 
+Using built-in specs.
+COLLECT_GCC=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/bin/g++
+COLLECT_LTO_WRAPPER=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.3.0 (GCC) 
+COMPILER_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-rdynamic' '-o' 'cmTC_4bbd2' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib' '-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon'
+ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/collect2 -plugin /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOYWeun.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib64/ld-linux-x86-64.so.2 -o cmTC_4bbd2 /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crt1.o /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crti.o /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib -L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib -L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib -L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib -L/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64 -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../.. -dynamic-linker=/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o -rpath /nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib64 -rpath /nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib -rpath /nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib64 -rpath /nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crtn.o
+COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-rdynamic' '-o' 'cmTC_4bbd2' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib' '-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon'
+make[1]: Leaving directory '/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include]
+    add: [/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include]
+    add: [/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include]
+    add: [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0]
+    add: [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu]
+    add: [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward]
+    add: [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include]
+    add: [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include]
+    add: [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed]
+    add: [/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include]
+  end of search list found
+  collapse include dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include] ==> [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include]
+  collapse include dir [/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include] ==> [/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include]
+  collapse include dir [/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include] ==> [/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include]
+  collapse include dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include/c++/10.3.0]
+  collapse include dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu]
+  collapse include dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include/c++/10.3.0/backward]
+  collapse include dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include]
+  collapse include dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include]
+  collapse include dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed]
+  collapse include dir [/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include] ==> [/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include]
+  implicit include dirs: [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include;/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include;/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include/c++/10.3.0;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include/c++/10.3.0/backward;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed;/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/pvkiiw0mp1yx0b21b7k105yywccychgh-gnumake-4.3/bin/make cmTC_4bbd2/fast && /nix/store/pvkiiw0mp1yx0b21b7k105yywccychgh-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_4bbd2.dir/build.make CMakeFiles/cmTC_4bbd2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/g++   -v -o CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/bin/g++]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon']
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/cc1plus -quiet -v -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 -idirafter /nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include -idirafter /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include -isystem /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include -isystem /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include /nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -fno-strict-overflow -fPIC -frandom-seed=fwc039i9p4 -frandom-seed=2rq308q9vl -fcommon --param=ssp-buffer-size=4 -o /tmp/ccg2G5Wu.s]
+  ignore line: [GNU C++14 (GCC) version 10.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring nonexistent directory "/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include]
+  ignore line: [ /nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include]
+  ignore line: [ /nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include]
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0]
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/x86_64-unknown-linux-gnu]
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../include/c++/10.3.0/backward]
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include]
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/include]
+  ignore line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed]
+  ignore line: [ /nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 18d7017847d8829a5e71125b12bb1fcc]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon']
+  ignore line: [ /nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/as -v --64 -o CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccg2G5Wu.s]
+  ignore line: [GNU assembler version 2.35.1 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.35.1]
+  ignore line: [COMPILER_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-o' 'CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon']
+  ignore line: [Linking CXX executable cmTC_4bbd2]
+  ignore line: [/nix/store/cbxqzxwlga5pm9rk8qa8fgv5387r540l-cmake-3.19.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bbd2.dir/link.txt --verbose=1]
+  ignore line: [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/g++  -v -rdynamic CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4bbd2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib/:/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/:/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64/:/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param=ssp-buffer-size=4' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fPIC' '-v' '-rdynamic' '-o' 'cmTC_4bbd2' '-B' '/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-B' '/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/' '-idirafter' '/nix/store/iwd8ic5hhwdxn5dga0im55g5hjl270cd-glibc-2.33-47-dev/include' '-idirafter' '/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/include-fixed' '-B' '/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin/' '-frandom-seed=fwc039i9p4' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-frandom-seed=2rq308q9vl' '-isystem' '/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/include' '-isystem' '/nix/store/fa9hbv1fmbc1myna9jj49l0gln2b17dw-gnumake-4.3/include' '-isystem' '/nix/store/wnjh1hzv9vqyyh46m9x2h26idib5kbx8-compiler-rt-libc-12.0.1-dev/include' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib' '-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib' '-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-fcommon']
+  link line: [ /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/collect2 -plugin /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/liblto_plugin.so -plugin-opt=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOYWeun.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib64/ld-linux-x86-64.so.2 -o cmTC_4bbd2 /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crt1.o /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crti.o /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib -L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib -L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib -L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib -L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib -L/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64 -L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../.. -dynamic-linker=/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o -rpath /nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib64 -rpath /nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib -rpath /nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib64 -rpath /nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o /nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crtn.o]
+    arg [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/libexec/gcc/x86_64-unknown-linux-gnu/10.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOYWeun.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4bbd2] ==> ignore
+    arg [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crt1.o] ==> ignore
+    arg [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crti.o] ==> ignore
+    arg [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o] ==> ignore
+    arg [-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+    arg [-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+    arg [-L/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+    arg [-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib] ==> dir [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib]
+    arg [-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib] ==> dir [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib]
+    arg [-L/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib] ==> dir [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib]
+    arg [-L/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib] ==> dir [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib]
+    arg [-L/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin] ==> dir [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin]
+    arg [-L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+    arg [-L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64] ==> dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64]
+    arg [-L/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..] ==> dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..]
+    arg [-dynamic-linker=/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_4bbd2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/2rq308q9vl9vpx4l3h36mqdfsdkyk3k8-shell/lib] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/nix/store/fwc039i9p4v61si49y1yka0f3ssak2k5-nix-shell/lib] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o] ==> ignore
+    arg [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib/crtn.o] ==> ignore
+  collapse library dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+  collapse library dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+  collapse library dir [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib] ==> [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib]
+  collapse library dir [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib] ==> [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib]
+  collapse library dir [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib] ==> [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib]
+  collapse library dir [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib] ==> [/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib]
+  collapse library dir [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib] ==> [/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib]
+  collapse library dir [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin] ==> [/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin]
+  collapse library dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  collapse library dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib64]
+  collapse library dir [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..] ==> [/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/nix/store/ghvw9lxj8wy3qjip2jv6qsqwvqh6r86j-gdb-12.1/lib;/nix/store/9bh3986bpragfjmr32gay8p95k91q4gy-glibc-2.33-47/lib;/nix/store/0kiykyrnrpfhmjwxwx89kxr20hmf5304-gcc-10.3.0-lib/lib;/nix/store/4xs1xyj8728yvh9y5v6ji819kwgfy2fv-gcc-wrapper-10.3.0/bin;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib64;/nix/store/dlni53myj53kx20pi4yhm7p68lw17b07-gcc-10.3.0/lib]
+  implicit fwks: []
 
 

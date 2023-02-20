@@ -19,7 +19,6 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib)
 # BUILD
 add_subdirectory(gtest)
 add_subdirectory(test)
-add_subdirectory(Polynomials)
 add_subdirectory(lib)
 
 

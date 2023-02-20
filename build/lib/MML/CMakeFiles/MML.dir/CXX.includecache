@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/lib/MML/Str.cpp
+Str.h
+/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/lib/MML/Str.h
+string.h
+-
+
+/home/runner/3821B1PM3-Lab-1-Rear-Officers-Polynomials/lib/MML/Str.h
+iostream
+-
+

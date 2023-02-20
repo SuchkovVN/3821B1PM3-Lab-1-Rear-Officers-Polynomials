@@ -1,0 +1,2 @@
+/nix/store/v8imx1nvyz0hgvx9cbcmh6gp4ngw3ffj-binutils-2.35.1/bin/ar qc libMML.a CMakeFiles/MML.dir/Str.cpp.o
+/nix/store/v8imx1nvyz0hgvx9cbcmh6gp4ngw3ffj-binutils-2.35.1/bin/ranlib libMML.a
