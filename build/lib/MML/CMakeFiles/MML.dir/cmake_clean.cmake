@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MML.dir/Str.cpp.o"
+  "CMakeFiles/MML.dir/Str.cpp.o.d"
   "libMML.a"
   "libMML.pdb"
 )

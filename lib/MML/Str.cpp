@@ -330,13 +330,13 @@ char TString::MuchSymvol()
   }
   for (int j = 0; j < len; j++)
   {
-    mas[unsigned char(str[j])]++;
+    mas[str[j]]++;
   }
   for (int g = 0; g < 256; g++)
   {
-    if (mas[g] >= mas[int(unsigned char(c))])
+    if (mas[g] >= mas[int(c)])
     {
-      c = unsigned char(g);
+      c = g;
     }
   }
   return char(c);
@@ -352,11 +352,11 @@ char* TString::MasSymvol()
   }
   for (int j = 0; j < len; j++)
   {
-    if (mas[unsigned char(str[j])] == 0)
+    if (mas[str[j]] == 0)
     {
       length++;
     }
-    mas[unsigned char(str[j])]++;
+    mas[str[j]]++;
   }
   char* res = new char[length];
   length = 0;
@@ -364,7 +364,7 @@ char* TString::MasSymvol()
   {
     if (mas[g] != 0)
     {
-      res[length] = char(unsigned char(g));
+      res[length] = char(g);
       length++;
     }
   }

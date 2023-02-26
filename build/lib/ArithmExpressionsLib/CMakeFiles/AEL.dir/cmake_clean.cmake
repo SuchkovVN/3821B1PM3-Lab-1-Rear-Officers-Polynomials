@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/AEL.dir/ArithmeticExpression.cpp.o"
+  "CMakeFiles/AEL.dir/ArithmeticExpression.cpp.o.d"
   "libAEL.a"
   "libAEL.pdb"
 )

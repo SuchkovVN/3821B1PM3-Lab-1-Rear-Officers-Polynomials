@@ -1,2 +1,2 @@
-/nix/store/v8imx1nvyz0hgvx9cbcmh6gp4ngw3ffj-binutils-2.35.1/bin/ar qc libStackLib.a CMakeFiles/StackLib.dir/Stack.cpp.o
-/nix/store/v8imx1nvyz0hgvx9cbcmh6gp4ngw3ffj-binutils-2.35.1/bin/ranlib libStackLib.a
+/usr/bin/ar qc libStackLib.a CMakeFiles/StackLib.dir/Stack.cpp.o
+/usr/bin/ranlib libStackLib.a

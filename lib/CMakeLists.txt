@@ -1,3 +1,4 @@
+project(lib)
 #includes
 include_directories(MML)
 include_directories(ListsLib)
@@ -13,3 +14,5 @@ add_subdirectory(ArithmExpressionsLib)
 add_subdirectory(ListsLib)
 #StackLib
 add_subdirectory(StackLib)
+
+
