@@ -1,288 +1,276 @@
 #pragma once
-#include <iostream>
-using namespace std;
+#include<iostream>
 
-template <class K, class V>
+template<class Key, class Data>
 class TMap
 {
 protected:
-  size_t size;
-  V* values;
-  K* keys;
-  size_t count;
-public:
-  TMap(size_t sz, K* key, V* val);
-  TMap(size_t sz = 1);
-  TMap(const TMap<K, V>& map);
-  TMap(TMap<K, V>&& map) noexcept;
-  ~TMap();
+	size_t size = 0;
+	Data* data = nullptr;
+	Key* key = nullptr;
+	size_t count = 0;
 
+public:
+	TMap(size_t _size = 0);
+	TMap(size_t _size, Key* _key, Data* _data);
+	TMap(TMap<Key, Data>& Another_Map);
+	//TMap(TMap<Key, Data>&& Another_Map) noexcept;
+  ~TMap();
   size_t Size();
   size_t Count();
-  K GetKey(size_t ind);
+  Key GetKey(size_t ind);
   bool IsFull();
-  void Insert(K key, V val, bool unique);
-  bool IsInsertKey(const K key) const;
+  void Insert(Key _key, Data _data);
+  bool IsInsertKey(const Key _key) const;
 
-  const V& operator[] (K key) const;
-  V& operator[] (K key);
-  bool operator == (const TMap<K, V>& map);
-  bool operator != (const TMap<K, V>& map);
-  TMap<K, V> operator = (const TMap<K, V>& map);
-  TMap<K, V> operator = (TMap<K, V>&& map);
+  const Data& operator[] (Key _key) const;
+  Data& operator[] (Key _key);
+  bool operator == (const TMap<Key, Data>& map);
+  bool operator != (const TMap<Key, Data>& map);
+  TMap<Key, Data> operator = (const TMap<Key, Data>& map);
+ //TMap<K, V> operator = (TMap<K, V>&& map);
+  
 
-  friend ostream& operator <<(ostream& ostr, const TMap<K, V>& map)
-  {
-    ostr << "Keys:\tValues:" << endl;
-    for (size_t i = 0; i < map.count; i++)
-    {
-      ostr << map.keys[i] << "\t" << map.values[i] << endl;
-    }
-    return ostr;
-  }
 
-  friend istream& operator >>(istream& istr, TMap<K, V>& map)
-  {
-    V val;
-    for (size_t i = 0; i < map.count; i++)
-    {
-      cout << "Value of key " << map.keys[i] << ":";
-      istr >> val;
-      map[map.keys[i]] = val;
-    }
-    return istr;
-  }
 };
 
-template<class K, class V>
-inline TMap<K, V>::TMap(size_t sz, K* key, V* val)
+template<class Key, class Data>
+inline TMap<Key, Data>::TMap(size_t _size)// we can create array with size = 0, also we can delete this array witout excpetion 
 {
-  if (val != nullptr && key != nullptr && sz != 0)
-  {
-    count = sz;
-    size = sz;
-    values = new V[size];
-    keys = new K[size];
-    for (size_t i = 0; i < size; i++)
-    {
-      values[i] = val[i];
-      keys[i] = key[i];
-    }
-  }
-  else
-    throw "exeption";
+  size = _size;
+  data = new Data[_size];
+  key = new Key[_size];
 }
 
-template<class K, class V>
-inline TMap<K, V>::TMap(size_t sz)
+template<class Key, class Data>
+inline TMap<Key, Data>::TMap(size_t _size, Key* _key, Data* _data) // arrays(Key*,Data*) must contains unique elements
 {
-  if (sz != 0)
-  {
-    size = sz;
-    count = 0;
-    values = new V[size];
-    keys = new K[size];
-    for (size_t i = 0; i < size; i++)
-    {
-      values[i] = {};
-      keys[i] = {};
-    }
-  }
-  else
-    throw out_of_range("size must be grather than zero");
-}
 
-template<class K, class V>
-inline TMap<K, V>::TMap(const TMap<K, V>& map)
-{
-  if (map.values == nullptr || map.keys == nullptr)
+  size = _size;
+  count = _size;
+  
+  for (size_t i = 0; i < size; i++)
   {
-    values = nullptr;
-    keys = nullptr;
-    size = 0;
-  }
-  else
-  {
-    count = map.count;
-    size = map.size;
-    values = new V[size];
-    keys = new K[size];
-    for (size_t i = 0; i < size; i++)
-    {
-      values[i] = map.values[i];
-      keys[i] = map.keys[i];
-    }
+    key[i] = _key[i];
+    data[i] = _data[i];
   }
 }
 
-template<class K, class V>
-inline TMap<K, V>::TMap(TMap<K, V>&& map) noexcept
+template<class Key, class Data>
+inline TMap<Key, Data>::TMap(TMap<Key, Data>& Another_Map)
 {
-  count = map.count
-  size = map.size;
-  values = map.values;
-  keys = map.keys;
-
-  map.count = 0;
-  map.size = 0;
-  map.keys = nullptr;
-  map.values = nullptr;
-}
-
-template<class K, class V>
-inline TMap<K, V>::~TMap()
-{
-  if (keys != nullptr && values != nullptr)
+  if (Another_Map.data == nullptr || Another_Map.key == nullptr)
   {
-    delete[] keys;
-    delete[] values;
+    data = nullptr;
+    key = nullptr;
     size = 0;
     count = 0;
-    keys = nullptr;
-    values = nullptr;
+  }
+  else
+  {
+    if (count > size) throw "Count greater than size! It's impossible!";
+    size = Another_Map.size;
+    count = Another_Map.count;
+    data = new Data[size];
+    key = new Key[size];
+
+    for (size_t i = 0; i < count; i++)
+    {
+      data[i] = Another_Map.data[i];
+      key[i] = Another_Map.key[i];
+    }
   }
 }
 
-template<class K, class V>
-inline size_t TMap<K, V>::Size()
+//template<class Key, class Data>
+//inline TMap<Key, Data>::TMap(TMap<Key, Data>&& Another_Map)
+//{
+//  count = Another_Map.count;
+//  size = Another_Map.size;
+//  data = Another_Map.values;
+//  key = Another_Map.keys;
+//
+//  Another_Map.count = 0;
+//  Another_Map.size = 0;
+//  Another_Map.key = nullptr;
+//  Another_Map.data = nullptr;
+//}
+
+template<class Key, class Data>
+inline TMap<Key, Data>::~TMap()
+{
+  if (data != nullptr)
+  {
+    delete[] data;
+    data = nullptr;
+  }
+  if (key != nullptr)
+  {
+    delete[] key;
+    key = nullptr;
+  }
+  
+}
+
+template<class Key, class Data>
+inline size_t TMap<Key, Data>::Size()
 {
   return size;
 }
 
-template<class K, class V>
-inline size_t TMap<K, V>::Count()
+template<class Key, class Data>
+inline size_t TMap<Key, Data>::Count()
 {
   return count;
 }
 
-template<class K, class V>
-inline K TMap<K, V>::GetKey(size_t ind)
-{
-  return keys[ind];
+template<class Key, class Data>
+inline Key TMap<Key, Data>::GetKey(size_t ind)
+{ 
+  if (ind >= 0 && ind < count)
+    return key[ind];
+  else 
+    throw "Exception! Out of range in array Key* key";
 }
 
-template<class K, class V>
-inline bool TMap<K, V>::IsFull()
+template<class Key, class Data>
+inline bool TMap<Key, Data>::IsFull()
 {
-  return (size == count);
-}
-
-template<class K, class V>
-inline void TMap<K, V>::Insert(K key, V val, bool unique)
-{
-  if (IsInsertKey(key) && unique)
-  {
-    for (size_t i = 0; i < size; i++)
-      if (keys[i] == key)
-        values[i] = val;
-  }
+  if (count == size)
+    return true;
   else
+    return false;
+}
+
+template<class Key, class Data>
+inline void TMap<Key, Data>::Insert(Key _key, Data _data)
+{
+  for (size_t i = 0; i < count; i++)
   {
-    if (!IsFull())
+    if (key[i] == _key) throw "the elem with<key,data> is not unique!";
+  }
+  if (count == size)
+  {
+    Data* temp1 = new Data[size];
+    Key* temp2 = new Key[size];
+    
+    for (size_t i = 0; i < count; i++)
     {
-      keys[count] = key;
-      values[count] = val;
-      count++;
+      temp1[i] = data[i];
+      temp2[i] = key[i];
     }
-    else
+
+    delete[] data;
+    delete[] key;
+
+    size = size * 2; // we will use one of the strategies for allocating space - multiplying the quantity by 2
+    data = new Data[size];
+    key = new Key[size];
+
+    for (size_t i = 0; i < count; i++)
     {
-      TMap<K, V> map(size * 2);
-      for (size_t i = 0; i < count; i++)
-      {
-        map.values[i] = values[i];
-        map.keys[i] = keys[i];
-      }
-      map.keys[count] = key;
-      map.values[count] = val;
-      map.count = count + 1;
-      *this = map;
+      data[i] = temp1[i];
+      key[i] = temp2[i];
     }
+
+    delete[] temp1;
+    temp1 = nullptr;
+    delete[] temp2;
+    temp2 = nullptr;
+
+    key[count] = _key;
+    data[count] = _data;
+    count++;
+  }
+  else if ( count < size)
+  {
+    key[count] = _key;
+    data[count] = _data;
+    count++;
   }
 }
 
-template<class K, class V>
-inline bool TMap<K, V>::IsInsertKey(const K key) const
+template<class Key, class Data>
+inline bool TMap<Key, Data>::IsInsertKey(const Key _key) const
 {
-  for (size_t i = 0; i < size; i++)
-    if (keys[i] == key)
+  
+  bool have_elem = false;
+  for (size_t i = 0; i < count; i++)
+  {
+    if (key[i] == _key)
       return true;
-  return false;
+  }
+  if (have_elem == false)
+    return false;
 }
 
-template<class K, class V>
-inline const V& TMap<K, V>::operator[](K key) const
+template<class Key, class Data>
+inline const Data& TMap<Key, Data>::operator[](Key _key) const
 {
-  for (size_t i = 0; i < size; i++)
-    if (keys[i] == key)
-      return values[i];
-  throw out_of_range("No such key");
+  bool have_similar = false;
+  for (size_t i = 0; i < count; i++)
+  {
+    if (key[i] == _key)
+      return key[i];
+    have_similar = true;
+  }
+  if (have_similar == false)
+    throw "The map doesn't have this elem with this key";
 }
 
-template<class K, class V>
-inline V& TMap<K, V>::operator[](K key)
+template<class Key, class Data>
+inline Data& TMap<Key, Data>::operator[](Key _key)
 {
-  for (size_t i = 0; i < size; i++)
-    if (keys[i] == key)
-      return values[i];
-  throw out_of_range("No such key");
+  bool have_similar = false;
+  for (size_t i = 0; i < count; i++)
+  {
+    if (key[i] == _key)
+      return data[i];
+    have_similar = true;
+  }
+  if (have_similar == false)
+    throw "The map doesn't have this elem with this key";
 }
 
-template<class K, class V>
-inline bool TMap<K, V>::operator==(const TMap<K, V>& map)
+template<class Key, class Data>
+inline bool TMap<Key, Data>::operator==(const TMap<Key, Data>& map)
 {
   if (size != map.size || count != map.count)
     return false;
   for (size_t i = 0; i < size; i++)
-    if (keys[i] != map.keys[i] || values[i] != map.values[i])
+    if (key[i] != map.key[i] || data[i] != map.data[i])
       return false;
   return true;
 }
 
-template<class K, class V>
-inline bool TMap<K, V>::operator!=(const TMap<K, V>& map)
+template<class Key, class Data>
+inline bool TMap<Key, Data>::operator!=(const TMap<Key, Data>& map)
 {
+
   return !(*this == map);
 }
 
-template<class K, class V>
-inline TMap<K, V> TMap<K, V>::operator=(const TMap<K, V>& map)
+template<class Key, class Data>
+inline TMap<Key, Data> TMap<Key, Data>::operator=(const TMap<Key, Data>& map)
 {
   if (this != &map)
   {
-    if (keys != nullptr && values != nullptr)
+    if (key != nullptr && data != nullptr)
     {
-      delete[] keys;
-      delete[] values;
+      delete[] key;
+      key = nullptr;
+      delete[] data;
+      data = nullptr;
     }
     count = map.count;
     size = map.size;
-    keys = new K[size];
-    values = new V[size];
+    key = new Key[size];
+    data = new Data[size];
     for (size_t i = 0; i < size; i++)
     {
-      values[i] = map.values[i];
-      keys[i] = map.keys[i];
+      data[i] = map.data[i];
+      key[i] = map.keys[i];
     }
-  }
-  else
-    throw "copy itself";
-  return *this;
-}
-
-template<class K, class V>
-inline TMap<K, V> TMap<K, V>::operator=(TMap<K, V>&& map)
-{
-  if (this != &map)
-  {
-    count = map.count;
-    size = map.size;
-    values = map.values;
-    keys = map.keys;
-
-    map.count = 0;
-    map.size = 0;
-    map.keys = nullptr;
-    map.values = nullptr;
   }
   else
     throw "copy itself";
