@@ -65,19 +65,19 @@ CMAKE_BINARY_DIR = "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Re
 # The main recursive "all" target.
 all: gtest/all
 all: test/all
-all: lib/all
+all: lib/MML/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
 preinstall: test/preinstall
-preinstall: lib/preinstall
+preinstall: lib/MML/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: gtest/clean
 clean: test/clean
-clean: lib/clean
+clean: lib/MML/clean
 .PHONY : clean
 
 #=============================================================================
@@ -96,60 +96,6 @@ gtest/clean: gtest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/clean
 
 #=============================================================================
-# Directory level rules for directory lib
-
-# Recursive "all" directory target.
-lib/all: lib/MML/all
-lib/all: lib/ArithmExpressionsLib/all
-lib/all: lib/ListsLib/all
-lib/all: lib/StackLib/all
-.PHONY : lib/all
-
-# Recursive "preinstall" directory target.
-lib/preinstall: lib/MML/preinstall
-lib/preinstall: lib/ArithmExpressionsLib/preinstall
-lib/preinstall: lib/ListsLib/preinstall
-lib/preinstall: lib/StackLib/preinstall
-.PHONY : lib/preinstall
-
-# Recursive "clean" directory target.
-lib/clean: lib/MML/clean
-lib/clean: lib/ArithmExpressionsLib/clean
-lib/clean: lib/ListsLib/clean
-lib/clean: lib/StackLib/clean
-.PHONY : lib/clean
-
-#=============================================================================
-# Directory level rules for directory lib/ArithmExpressionsLib
-
-# Recursive "all" directory target.
-lib/ArithmExpressionsLib/all: lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/all
-.PHONY : lib/ArithmExpressionsLib/all
-
-# Recursive "preinstall" directory target.
-lib/ArithmExpressionsLib/preinstall:
-.PHONY : lib/ArithmExpressionsLib/preinstall
-
-# Recursive "clean" directory target.
-lib/ArithmExpressionsLib/clean: lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/clean
-.PHONY : lib/ArithmExpressionsLib/clean
-
-#=============================================================================
-# Directory level rules for directory lib/ListsLib
-
-# Recursive "all" directory target.
-lib/ListsLib/all: lib/ListsLib/CMakeFiles/ListsLib.dir/all
-.PHONY : lib/ListsLib/all
-
-# Recursive "preinstall" directory target.
-lib/ListsLib/preinstall:
-.PHONY : lib/ListsLib/preinstall
-
-# Recursive "clean" directory target.
-lib/ListsLib/clean: lib/ListsLib/CMakeFiles/ListsLib.dir/clean
-.PHONY : lib/ListsLib/clean
-
-#=============================================================================
 # Directory level rules for directory lib/MML
 
 # Recursive "all" directory target.
@@ -163,21 +109,6 @@ lib/MML/preinstall:
 # Recursive "clean" directory target.
 lib/MML/clean: lib/MML/CMakeFiles/MML.dir/clean
 .PHONY : lib/MML/clean
-
-#=============================================================================
-# Directory level rules for directory lib/StackLib
-
-# Recursive "all" directory target.
-lib/StackLib/all: lib/StackLib/CMakeFiles/StackLib.dir/all
-.PHONY : lib/StackLib/all
-
-# Recursive "preinstall" directory target.
-lib/StackLib/preinstall:
-.PHONY : lib/StackLib/preinstall
-
-# Recursive "clean" directory target.
-lib/StackLib/clean: lib/StackLib/CMakeFiles/StackLib.dir/clean
-.PHONY : lib/StackLib/clean
 
 #=============================================================================
 # Directory level rules for directory test
@@ -201,7 +132,7 @@ test/clean: test/CMakeFiles/test_Polynomials.dir/clean
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=9,10 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=3,4 "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -225,14 +156,15 @@ gtest/CMakeFiles/gtest.dir/clean:
 
 # All Build rule for target.
 test/CMakeFiles/test_Polynomials.dir/all: gtest/CMakeFiles/gtest.dir/all
+test/CMakeFiles/test_Polynomials.dir/all: lib/MML/CMakeFiles/MML.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_Polynomials.dir/build.make test/CMakeFiles/test_Polynomials.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_Polynomials.dir/build.make test/CMakeFiles/test_Polynomials.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=11,12,13 "Built target test_Polynomials"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=5,6,7 "Built target test_Polynomials"
 .PHONY : test/CMakeFiles/test_Polynomials.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test_Polynomials.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_Polynomials.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" 0
 .PHONY : test/CMakeFiles/test_Polynomials.dir/rule
@@ -253,7 +185,7 @@ test/CMakeFiles/test_Polynomials.dir/clean:
 lib/MML/CMakeFiles/MML.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/MML/CMakeFiles/MML.dir/build.make lib/MML/CMakeFiles/MML.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/MML/CMakeFiles/MML.dir/build.make lib/MML/CMakeFiles/MML.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=5,6 "Built target MML"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=1,2 "Built target MML"
 .PHONY : lib/MML/CMakeFiles/MML.dir/all
 
 # Build rule for subdir invocation for target.
@@ -271,84 +203,6 @@ MML: lib/MML/CMakeFiles/MML.dir/rule
 lib/MML/CMakeFiles/MML.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lib/MML/CMakeFiles/MML.dir/build.make lib/MML/CMakeFiles/MML.dir/clean
 .PHONY : lib/MML/CMakeFiles/MML.dir/clean
-
-#=============================================================================
-# Target rules for target lib/ArithmExpressionsLib/CMakeFiles/AEL.dir
-
-# All Build rule for target.
-lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/build.make lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/build.make lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=1,2 "Built target AEL"
-.PHONY : lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/all
-
-# Build rule for subdir invocation for target.
-lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" 0
-.PHONY : lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/rule
-
-# Convenience name for target.
-AEL: lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/rule
-.PHONY : AEL
-
-# clean rule for target.
-lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/build.make lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/clean
-.PHONY : lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/clean
-
-#=============================================================================
-# Target rules for target lib/ListsLib/CMakeFiles/ListsLib.dir
-
-# All Build rule for target.
-lib/ListsLib/CMakeFiles/ListsLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/ListsLib/CMakeFiles/ListsLib.dir/build.make lib/ListsLib/CMakeFiles/ListsLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/ListsLib/CMakeFiles/ListsLib.dir/build.make lib/ListsLib/CMakeFiles/ListsLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=3,4 "Built target ListsLib"
-.PHONY : lib/ListsLib/CMakeFiles/ListsLib.dir/all
-
-# Build rule for subdir invocation for target.
-lib/ListsLib/CMakeFiles/ListsLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/ListsLib/CMakeFiles/ListsLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" 0
-.PHONY : lib/ListsLib/CMakeFiles/ListsLib.dir/rule
-
-# Convenience name for target.
-ListsLib: lib/ListsLib/CMakeFiles/ListsLib.dir/rule
-.PHONY : ListsLib
-
-# clean rule for target.
-lib/ListsLib/CMakeFiles/ListsLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/ListsLib/CMakeFiles/ListsLib.dir/build.make lib/ListsLib/CMakeFiles/ListsLib.dir/clean
-.PHONY : lib/ListsLib/CMakeFiles/ListsLib.dir/clean
-
-#=============================================================================
-# Target rules for target lib/StackLib/CMakeFiles/StackLib.dir
-
-# All Build rule for target.
-lib/StackLib/CMakeFiles/StackLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f lib/StackLib/CMakeFiles/StackLib.dir/build.make lib/StackLib/CMakeFiles/StackLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f lib/StackLib/CMakeFiles/StackLib.dir/build.make lib/StackLib/CMakeFiles/StackLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=7,8 "Built target StackLib"
-.PHONY : lib/StackLib/CMakeFiles/StackLib.dir/all
-
-# Build rule for subdir invocation for target.
-lib/StackLib/CMakeFiles/StackLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/StackLib/CMakeFiles/StackLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" 0
-.PHONY : lib/StackLib/CMakeFiles/StackLib.dir/rule
-
-# Convenience name for target.
-StackLib: lib/StackLib/CMakeFiles/StackLib.dir/rule
-.PHONY : StackLib
-
-# clean rule for target.
-lib/StackLib/CMakeFiles/StackLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f lib/StackLib/CMakeFiles/StackLib.dir/build.make lib/StackLib/CMakeFiles/StackLib.dir/clean
-.PHONY : lib/StackLib/CMakeFiles/StackLib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

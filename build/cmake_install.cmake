@@ -46,7 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/gtest/cmake_install.cmake")
   include("/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/test/cmake_install.cmake")
-  include("/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/cmake_install.cmake")
+  include("/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/MML/cmake_install.cmake")
 
 endif()
 

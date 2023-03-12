@@ -227,15 +227,6 @@ Polynomials_SOURCE_DIR:STATIC=/run/media/vladislav/Samsung USB/Projects/3821B1PM
 //Dependencies for the target
 gtest_LIB_DEPENDS:STATIC=general;-pthread;
 
-//Value Computed by CMake
-lib_BINARY_DIR:STATIC=/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib
-
-//Value Computed by CMake
-lib_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-lib_SOURCE_DIR:STATIC=/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/lib
-
 
 ########################
 # INTERNAL cache entries
@@ -343,7 +334,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

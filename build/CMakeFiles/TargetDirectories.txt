@@ -6,17 +6,6 @@
 /run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/test/CMakeFiles/test_Polynomials.dir
 /run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/test/CMakeFiles/edit_cache.dir
 /run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/test/CMakeFiles/rebuild_cache.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/CMakeFiles/edit_cache.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/CMakeFiles/rebuild_cache.dir
 /run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/MML/CMakeFiles/MML.dir
 /run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/MML/CMakeFiles/edit_cache.dir
 /run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/MML/CMakeFiles/rebuild_cache.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/ArithmExpressionsLib/CMakeFiles/AEL.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/ArithmExpressionsLib/CMakeFiles/edit_cache.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/ArithmExpressionsLib/CMakeFiles/rebuild_cache.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/ListsLib/CMakeFiles/ListsLib.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/ListsLib/CMakeFiles/edit_cache.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/ListsLib/CMakeFiles/rebuild_cache.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/StackLib/CMakeFiles/StackLib.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/StackLib/CMakeFiles/edit_cache.dir
-/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/lib/StackLib/CMakeFiles/rebuild_cache.dir

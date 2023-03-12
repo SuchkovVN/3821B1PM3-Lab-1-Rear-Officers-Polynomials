@@ -14,11 +14,14 @@ endif()
 # Include
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/gtest)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/lib)
-
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/test)
 
 # BUILD
 add_subdirectory(gtest)
 add_subdirectory(test)
-add_subdirectory(lib)
+add_subdirectory(lib/MML)
+# add_subdirectory(lib/AEL)
+#add_subdirectory(lib)
+
 
 

@@ -109,6 +109,7 @@ test/test_Polynomials: test/CMakeFiles/test_Polynomials.dir/test_main.cpp.o
 test/test_Polynomials: test/CMakeFiles/test_Polynomials.dir/test_rofl.cpp.o
 test/test_Polynomials: test/CMakeFiles/test_Polynomials.dir/build.make
 test/test_Polynomials: gtest/libgtest.a
+test/test_Polynomials: lib/MML/libMML.a
 test/test_Polynomials: test/CMakeFiles/test_Polynomials.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_Polynomials"
 	cd "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/build/test" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_Polynomials.dir/link.txt --verbose=$(VERBOSE)

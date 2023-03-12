@@ -155,45 +155,6 @@ MML/fast:
 	$(MAKE) $(MAKESILENT) -f lib/MML/CMakeFiles/MML.dir/build.make lib/MML/CMakeFiles/MML.dir/build
 .PHONY : MML/fast
 
-#=============================================================================
-# Target rules for targets named AEL
-
-# Build rule for target.
-AEL: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AEL
-.PHONY : AEL
-
-# fast build rule for target.
-AEL/fast:
-	$(MAKE) $(MAKESILENT) -f lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/build.make lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/build
-.PHONY : AEL/fast
-
-#=============================================================================
-# Target rules for targets named ListsLib
-
-# Build rule for target.
-ListsLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ListsLib
-.PHONY : ListsLib
-
-# fast build rule for target.
-ListsLib/fast:
-	$(MAKE) $(MAKESILENT) -f lib/ListsLib/CMakeFiles/ListsLib.dir/build.make lib/ListsLib/CMakeFiles/ListsLib.dir/build
-.PHONY : ListsLib/fast
-
-#=============================================================================
-# Target rules for targets named StackLib
-
-# Build rule for target.
-StackLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StackLib
-.PHONY : StackLib
-
-# fast build rule for target.
-StackLib/fast:
-	$(MAKE) $(MAKESILENT) -f lib/StackLib/CMakeFiles/StackLib.dir/build.make lib/StackLib/CMakeFiles/StackLib.dir/build
-.PHONY : StackLib/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -202,10 +163,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... AEL"
-	@echo "... ListsLib"
 	@echo "... MML"
-	@echo "... StackLib"
 	@echo "... gtest"
 	@echo "... test_Polynomials"
 .PHONY : help

@@ -12,11 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.0-rc3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.0-rc3/CMakeSystem.cmake"
   "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/gtest/CMakeLists.txt"
-  "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/lib/ArithmExpressionsLib/CMakeLists.txt"
-  "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/lib/CMakeLists.txt"
-  "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/lib/ListsLib/CMakeLists.txt"
   "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/lib/MML/CMakeLists.txt"
-  "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/lib/StackLib/CMakeLists.txt"
   "/run/media/vladislav/Samsung USB/Projects/3821B1PM3-Lab-1-Rear-Officers-Polynomials/test/CMakeLists.txt"
   "/usr/local/share/cmake-3.26/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
@@ -48,11 +44,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/MML/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/ArithmExpressionsLib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/ListsLib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/StackLib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -60,7 +52,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "test/CMakeFiles/test_Polynomials.dir/DependInfo.cmake"
   "lib/MML/CMakeFiles/MML.dir/DependInfo.cmake"
-  "lib/ArithmExpressionsLib/CMakeFiles/AEL.dir/DependInfo.cmake"
-  "lib/ListsLib/CMakeFiles/ListsLib.dir/DependInfo.cmake"
-  "lib/StackLib/CMakeFiles/StackLib.dir/DependInfo.cmake"
   )
