@@ -6,14 +6,15 @@ class TMap
 {
 protected:
 	size_t size = 0;
+  size_t count = 0;
+
 	Data* data = nullptr;
 	Key* key = nullptr;
-	size_t count = 0;
-
 public:
 	TMap(size_t _size = 0);
 	TMap(size_t _size, Key* _key, Data* _data);
 	TMap(TMap<Key, Data>& Another_Map);
+  TMap(TMap<Key, Data>&& Another_Map);
 	//TMap(TMap<Key, Data>&& Another_Map) noexcept;
   ~TMap();
   size_t Size();
@@ -25,10 +26,11 @@ public:
 
   const Data& operator[] (Key _key) const;
   Data& operator[] (Key _key);
+  Data& operator[] (Key* _key);
   bool operator == (const TMap<Key, Data>& map);
   bool operator != (const TMap<Key, Data>& map);
   TMap<Key, Data> operator = (const TMap<Key, Data>& map);
- //TMap<K, V> operator = (TMap<K, V>&& map);
+  
   
 
 
@@ -82,19 +84,19 @@ inline TMap<Key, Data>::TMap(TMap<Key, Data>& Another_Map)
   }
 }
 
-//template<class Key, class Data>
-//inline TMap<Key, Data>::TMap(TMap<Key, Data>&& Another_Map)
-//{
-//  count = Another_Map.count;
-//  size = Another_Map.size;
-//  data = Another_Map.values;
-//  key = Another_Map.keys;
-//
-//  Another_Map.count = 0;
-//  Another_Map.size = 0;
-//  Another_Map.key = nullptr;
-//  Another_Map.data = nullptr;
-//}
+template<class Key, class Data>
+inline TMap<Key, Data>::TMap(TMap<Key, Data>&& Another_Map)
+{
+  count = Another_Map.count;
+  size = Another_Map.size;
+  data = Another_Map.values;
+  key = Another_Map.keys;
+
+  Another_Map.count = 0;
+  Another_Map.size = 0;
+  Another_Map.key = nullptr;
+  Another_Map.data = nullptr;
+}
 
 template<class Key, class Data>
 inline TMap<Key, Data>::~TMap()
@@ -182,7 +184,7 @@ inline void TMap<Key, Data>::Insert(Key _key, Data _data)
     data[count] = _data;
     count++;
   }
-  else if ( count < size)
+  else if  (count < size)
   {
     key[count] = _key;
     data[count] = _data;
@@ -233,6 +235,16 @@ inline Data& TMap<Key, Data>::operator[](Key _key)
 }
 
 template<class Key, class Data>
+inline Data& TMap<Key, Data>::operator[](Key* _key)
+{
+  for (size_t i = 0; i < count; i++)
+  {
+    if (key[i] == *_key)
+      return key[i];
+  }
+}
+
+template<class Key, class Data>
 inline bool TMap<Key, Data>::operator==(const TMap<Key, Data>& map)
 {
   if (size != map.size || count != map.count)
@@ -269,7 +281,7 @@ inline TMap<Key, Data> TMap<Key, Data>::operator=(const TMap<Key, Data>& map)
     for (size_t i = 0; i < size; i++)
     {
       data[i] = map.data[i];
-      key[i] = map.keys[i];
+      key[i] = map.key[i];
     }
   }
   else
